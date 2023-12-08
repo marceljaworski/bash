@@ -1,6 +1,12 @@
 # Bash fundamentals
 
-Notes and examples about my journey learning bash
+Notes and examples about my journey learning bash.
+
+Note that ***to make a file executable***, you must set the eXecutable bit, and for a shell script, the Readable bit must also be set. So it is likely that you will need to change the permissions on your script, to make it executable. If your script is named "myscript.sh" then you will need to change its permissions, like this:
+$ chmod u+rx myscript.sh
+or
+$ chmod 755 myscript.sh
+$ ./myscript.sh
 
 ## Special variables in **BASH**
 
