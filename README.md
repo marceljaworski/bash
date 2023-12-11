@@ -16,5 +16,5 @@ $ ./myscript.sh
 `$@` - All arguments passed to script or function.|
 `$*` - All arguments passed to script or function.|
 `$?` - The exit status of the last command executed.|
-`$$`- The process ID of the current shell. For shell scripts, this is the process ID under which they are executing.|
+`$$` - The process ID of the current shell. For shell scripts, this is the process ID under which they are executing.|
 `$!` - The process number of the last background command.|
